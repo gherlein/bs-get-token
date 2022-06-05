@@ -10,7 +10,7 @@ sudo apt install -y curl jq direnv
 
 ## Configuration
 
-Copy the file "envrc" to ".envrc" and then edit it to insert your BSN.cloud username, password, client id, and secret.  The last two you will need to ask Brightsign support for.  Then
+Copy the file "envrc" to ".envrc" and then edit it to insert your BSN.cloud username, password, network name, client id, and secret.  The last two you will need to ask Brightsign support for. 
 
 ```bash
 direnv allow
@@ -23,7 +23,7 @@ Now, when you enter this folder you will set the environment variables.
 The script get-token will use the environment variables to make a call to the "token" endpoint to fecth a bearer token that can then be used to authenticate API calls.
 
 ```bash
-./get-token
+./get-tokens
 {
   "token_type": "bearer",
   "access_token": "this-is-not-a-real-token-cQwVKeq6FGXvLmrn7CQsPFstDXQWlSCXQwHz1qTEVRGhJpIgB9n8kCkGdJXcvegA1D",

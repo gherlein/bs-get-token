@@ -1,2 +1,0 @@
-curl -s -k -X POST -H 'Content-type: application/x-www-form-urlencoded' -d "client_id=Greg&grant_type=password&client_token=$BS_CLIENT_ID&client_secret=$BS_SECRET&username=$BS_USERNAME&password=$BS_PASSWD" https://api.bsn.cloud/2020/10/REST/Token | jq .
-
