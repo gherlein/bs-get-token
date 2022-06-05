@@ -55,7 +55,7 @@ The script get-token will use the environment variables to make a call to the "t
       }
     ]
   },
-  "scope": "bsn.api.self",
+  "scope": "add_device_setup bsn.api.main bsn.api.self bsn.api.upload bsn.ui.main player",
   ".issued": "Sun, 05 Jun 2022 17:12:01 GMT",
   ".expires": "Sun, 05 Jun 2022 17:27:01 GMT"
 }
