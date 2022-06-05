@@ -23,7 +23,7 @@ Now, when you enter this folder you will set the environment variables.
 The script get-token will use the environment variables to make a call to the "token" endpoint to fecth a bearer token that can then be used to authenticate API calls.
 
 ```bash
-./get-tokens
+./get-token
 {
   "token_type": "bearer",
   "access_token": "this-is-not-a-real-token-cQwVKeq6FGXvLmrn7CQsPFstDXQWlSCXQwHz1qTEVRGhJpIgB9n8kCkGdJXcvegA1D",
